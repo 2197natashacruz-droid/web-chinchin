@@ -290,3 +290,21 @@
         font-size: .85rem;
     }
 }
+
+.invalid-feedback {
+    display: none;
+}
+
+.is-invalid~.invalid-feedback {
+    display: block !important;
+}
+
+.btn-contacto {
+    display: flex !important;
+    justify-content: center !important;
+    /* Centra horizontalmente */
+    align-items: center !important;
+    /* Centra verticalmente */
+    text-align: center !important;
+    width: 100%;
+}
